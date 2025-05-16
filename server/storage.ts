@@ -2764,11 +2764,6 @@ export class MemStorage implements IStorage {
     productData.forEach(product => this.createProduct(product));
   }
 
-  // Visitor tracking properties
-  private visitorStats: Map<string, VisitorStats>;
-  private visitorSessions: Map<string, VisitorSession>;
-  private activeVisitors: Map<string, ActiveVisitor>;
-
   // Visitor tracking methods
   async trackPageVisit(pageUrl: string, sessionId: string, userId?: number): Promise<void> {
     // Get today's date without time component
