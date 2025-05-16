@@ -1,0 +1,81 @@
+I want to build a full-stack ecommerce web application called Dash using HTML, CSS (or TailwindCSS), JavaScript (React for frontend), and Node.js/Express with MongoDB for the backend. The app should be fully responsive and accessible via web browsers on Windows, macOS, Android, and iOS.
+
+✅ User Features:
+
+Home page with featured products and new arrivals (luxury men’s and women’s fashion: clothing, bags, jewelry, accessories).
+
+Product listing with filters (categories, price range, availability).
+
+Product detail page (image zoom, description, price, “Add to Cart,” “Favorite,” “Share”).
+
+Shopping cart and checkout options:
+
+Registered users must log in to complete purchase.
+
+Guest checkout allowed (without account).
+
+Payment integration with Paystack and Flutterwave.
+
+Wishlist/Favorites system that persists after login.
+
+Discount coupons and promotional codes support at checkout.
+
+Delivery tracking page (status updates for logged-in users).
+
+SMS and email notifications for delivery status updates.
+
+User authentication (Signup, login, password reset).
+
+✅ Admin Dashboard Features:
+
+Secure admin login.
+
+Product management (Add, edit, delete products).
+
+Order management (View, update, and process orders).
+
+Inventory tracking (stock availability, low stock alerts).
+
+Order status tracking (pending, processing, shipped, delivered).
+
+Manage part-payment orders.
+
+Manage new arrivals section.
+
+Discounts and promo code management.
+
+Sales analytics dashboard (optional).
+
+✅ Tech Requirements:
+
+Frontend: React (with hooks and Context API/Redux for state management), TailwindCSS or Bootstrap.
+
+Backend: Node.js with Express.js, MongoDB (Mongoose ORM).
+
+Authentication: JWT for session management.
+
+Payments: Integration with Paystack and Flutterwave APIs.
+
+Notifications: Use Nodemailer for email notifications and Twilio (or other SMS service) for SMS notifications.
+
+Hosting on Replit for development.
+
+Modular, well-commented codebase.
+
+✅ Bonus Features (if possible):
+
+User roles (admin vs customer).
+
+Push notifications for mobile users.
+
+Customer reviews & ratings on products.
+
+Live chat support (optional).
+
+Build a project structure with:
+
+Clean React component organization.
+
+API routes for authentication, products, cart, and orders.
+
+Secure admin authentication and dashboard controls.

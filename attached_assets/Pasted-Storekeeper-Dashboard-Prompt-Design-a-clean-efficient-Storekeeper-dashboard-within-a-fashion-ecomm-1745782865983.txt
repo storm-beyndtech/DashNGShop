@@ -1,0 +1,79 @@
+Storekeeper Dashboard Prompt
+
+Design a clean, efficient Storekeeper dashboard within a fashion ecommerce app. The dashboard should focus on inventory management and provide the necessary shipment/order visibility, without overwhelming the storekeeper with business-level analytics.
+
+Core Functionalities:
+1. Upload and Manage Inventory
+
+Upload product images (support multiple images per item: front view, side view, back view, label/brand close-up).
+
+Enter product details:
+
+Product Name
+
+SKU (Stock Keeping Unit)
+
+Category (e.g., Men, Women, Accessories)
+
+Size Variants (S, M, L, XL)
+
+Color Options
+
+Quantity in Stock
+
+Cost Price and/or Suggested Selling Price
+
+Description
+
+Edit or delete product listings as needed.
+
+View current inventory stock levels with low-stock alerts.
+
+2. Create and Update Stock Records
+
+Update stock quantity when:
+
+New shipments arrive.
+
+Internal stock adjustments are needed (e.g., damaged goods, returns).
+
+Track inventory changes with a stock movement log (who added, edited, or removed stock and when).
+
+3. View Shipments and Order Status (Basic View Only)
+
+See incoming shipment tracking (e.g., "Shipment #123: In Transit", "Shipment #456: Delivered").
+
+See orders that have been processed and need inventory fulfillment (e.g., "Order #789: Packing in Progress").
+
+No permission to edit shipments or orders — view-only access.
+
+Additional Practical Features:
+Barcode/QR Code generator for items.
+
+Bulk Upload option (via CSV file for large inventory uploads).
+
+Searchable inventory table (filter by Product Name, SKU, Category).
+
+Mobile camera integration (optional) for photo uploads right from mobile.
+
+Notifications (e.g., "New shipment arriving tomorrow").
+
+💡 Suggestions to Make It Even More Practical
+Inventory Audit Mode:
+Add a simple feature where the storekeeper can mark inventory as “checked/verified” during physical stock audits.
+
+Multi-image Upload with Drag and Drop:
+Make uploading item pictures easy and quick (drag and drop zone + preview thumbnails).
+
+Role-based Data Access:
+Limit storekeeper access strictly to inventory/shipments — no access to financials or sales reports to maintain business privacy.
+
+Simple Analytics:
+Add a small dashboard card like:
+
+“Items added this month: 120”
+
+“Low stock items: 5” (Gives motivation without overwhelming them.)
+
+Real-Time Inventory Update:
+After uploading or editing, inventory lists refresh automatically without reloading the page.
