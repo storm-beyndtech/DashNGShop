@@ -1,3 +1,6 @@
+import dotenv from "dotenv";
+dotenv.config();
+
 import { 
   users, type User, type InsertUser,
   products, type Product, type InsertProduct,

@@ -1,3 +1,6 @@
+import dotenv from "dotenv";
+dotenv.config();
+
 import { db } from '../db';
 import { products, orderItems, orders } from '@shared/schema';
 import { eq, and, gte, lte, desc } from 'drizzle-orm';
